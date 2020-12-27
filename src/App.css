@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+*{
+    margin:0;
+    padding:0;
+}
+.give_border{
+        margin: 8em;
+        border-radius: 35px;
+        background-color: white !important;
+}
+.signin_button{
+    padding: 5px 20px;
+    font-size: 20px;
+    border:none ;
+    border-radius: 15px;
+    background-color: #270073;
+    color: seashell;
+    outline:none !important;
+}
+input{
+    width:90%;
+    height:50px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #270073!important;
+    outline: none;
+}
+a{
+    color: #00B3FF !important;
+}
+body{
+    background-image: url('https://i.pinimg.com/originals/fc/e9/7e/fce97eba95fd3de922940e31f8ab8982.gif') !important;
+}
+.border_right{
+    border-right: 1px solid black;
+}
+.position_it_on_prev_div{
+    position: relative !important;
+    top:-25px !important ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+.color__it{
+    background-color: black;
+    height: 1000px;
+    width: 1000px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.navbar{
+    background-color: white!important;
+}
+.changeColor{
+    background-color:white;
+}
+.navbar-brand{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 250%;
+     color: white !important;
+}
+.navbar div a{
+    font-family: 'Asul',sans-serif;
+    font-size: 140%;
+    color:black!important;
+    padding: 15px;
+    border:none
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ .navbar div a:hover{
+    color: blue !important;
+    
+}
+.headStyle{
+    font-family: 'Luckiest Guys', cursive;
+    font-size: 5rem;
+    color: #DD1E77;
+    font-weight: 700;
+}
+.homePFont{
+    font-family: 'Permanent Marker', cursive;
+    color: red;
+    font-size: 1.9rem;
+}
+.homeMarginTop{
+    margin-top: 5rem !important;
+}
+.btn{
+    background-color: darkcyan;
+    border: none;
+    font-family: 'Asul';
+}
+.btn:hover{
+    background-color: gray; 
 }
 
-.App-link {
-  color: #61dafb;
+img{
+    opacity: 1 !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user__head{
+    color: white;
+    opacity: unset;
+}
+.nav-link{
+    color: white !important;
+}
+a{
+    text-decoration: none !important;
 }
